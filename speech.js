@@ -8,9 +8,9 @@ const textToSpeech = (string) => {
  
   voice.text = string;
   voice.lang = "en-US";
-  voice.voice = allVoice[3];
+  voice.voice = allVoice[9];
   voice.volume = 1;
   voice.rate = 1;
-  voice.pitch = 1; // Can be 0, 1, or 2
+  voice.pitch = 0; // Can be 0, 1, or 2
   synth.speak(voice);
 }
